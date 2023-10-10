@@ -58,4 +58,9 @@ dependencies {
     implementation("com.google.firebase:firebase-crashlytics-ktx:18.4.3")
     //firebase authentication
     implementation("com.google.firebase:firebase-auth-ktx")
+    //Play services for google services (anything realted to google can be accessed)
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
+    //Facebook service for login
+    implementation ("com.facebook.android:facebook-login:latest.release")
+
 }
